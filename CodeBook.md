@@ -8,12 +8,12 @@ Goals of the assignment
  - From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
 Steps 
- - Load the necessary packages
+ <LI> Load the necessary packages </LI>
 - Download and unzip the data
 - Read the file names and parse into three chucks 
-   - The activities (y files) - and merge these with the activity labels
-   - the data (X files)
-   - the subjects
+    - The activities (y files) - and merge these with the activity labels
+    - The data (X files)
+    - The subjects
 - Create a train table that cbinds the activity and subject file
 - Create a test table that cbinds the activity and subject file
 - Combine the Train and Test tables with rbind
